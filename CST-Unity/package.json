@@ -1,0 +1,28 @@
+{
+    "name": "com.hiaac.cst-unity",
+    "version": "0.0.1",
+    "displayName": "CST-Unity",
+    "description": "Unity package of the CST, the Cognitive Systems Toolkit",
+    "author": {
+        "name": "H.IAAC",
+        "email": "hiaac@unicamp.br",
+        "url": "https://hiaac.unicamp.br/"
+    },
+    "license": "LGPL-3.0-only",
+    "keywords": [
+        "toolkit",
+        "cst",
+        "cognitive-architecture"
+    ],
+    "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.2"
+    },
+    "documentationUrl": "https://github.com/H-IAAC/CST-Unity",
+    "samples": [
+        {
+            "displayName": "Memory Storage",
+            "description": "Equivalent of https://h-iaac.github.io/CST-Python/_build/html/_examples/Memory%20Storage.html",
+            "path": "Samples~/MemoryStorage"
+        }
+    ]
+}
