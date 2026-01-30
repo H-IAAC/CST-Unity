@@ -36,7 +36,7 @@ This project was developed as part of the Cognitive Architectures research line 
 @software{Cardoso_do_Nascimento_CST-Python,
 author = {Cardoso do Nascimento, Elton and Dornhofer Paro Costa, Paula},
 title = {CST-Unity},
-url = {https://github.com/H-IAAC/CST-Unity'}
+url = {https://github.com/H-IAAC/CST-Unity}
 }
 ```
 <!--CITATION END-->
