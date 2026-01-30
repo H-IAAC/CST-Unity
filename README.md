@@ -25,7 +25,7 @@ This project was developed as part of the Cognitive Architectures research line 
 - Enter the url: `https://github.com/H-IAAC/CST-Unity.git?path=CST-Unity`
 
 ### Usage
-- Use the same classes you would have in the standard CST. The namespace "HIAAC.CstUnity" is the Java equivalent of the package "br.unicamp.cst"
+- Use the same classes you would have in the standard CST. The namespace "HIAAC.CstUnity" is the C# equivalent of the Java package "br.unicamp.cst"
 - There is a sample in the package that demonstrates the use of MemoryStorage
 
 ## Citation
