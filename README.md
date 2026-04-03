@@ -20,13 +20,14 @@ This project was developed as part of the Cognitive Architectures research line 
 
 ## Installation / Usage
 
-### Installation
+**Installation**
 
 - Open the `Package Manager`
 - Click the add **+** button in the status bar, select "`Add Package from git URL...`"
 - Enter the url: `https://github.com/H-IAAC/CST-Unity.git?path=CST-Unity`
 
-### Usage
+**Usage**
+
 - Use the same classes you would have in the standard CST. The namespace "HIAAC.CstUnity" is the C# equivalent of the Java package "br.unicamp.cst"
 - There is a sample in the package that demonstrates the use of MemoryStorage
 
