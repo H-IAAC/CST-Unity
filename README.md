@@ -1,3 +1,5 @@
+[![](https://img.shields.io/pypi/l/cst_python?style=for-the-badge)](https://github.com/H-IAAC/CST-Unity/blob/main/LICENSE) [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/H-IAAC/CST-Unity) [![](https://img.shields.io/badge/DOI-10.5281/zenodo.19410952-1082c3?style=for-the-badge)](https://doi.org/10.5281/zenodo.19410952)
+
 # CST-Unity
 
 CST-Unity is a Unity Package of the CST, the Cognitive Systems Toolkit, a toolkit for the construction of cognitive systems and cognitive architectures.
