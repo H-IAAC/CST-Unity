@@ -15,8 +15,7 @@
         "cognitive-architecture"
     ],
     "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "3.2.2",
-        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2"
+        "com.unity.nuget.newtonsoft-json": "3.2.2"
     },
     "documentationUrl": "https://github.com/H-IAAC/CST-Unity",
     "samples": [
