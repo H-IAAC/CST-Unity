@@ -125,6 +125,7 @@ namespace HIAAC.CstUnity.MemoryStorage
 
                     _db.HashSet(memoryKey, memoryImpostor);
                     _currentTime = (LamportTime)_currentTime.Increment();
+                    _lastUpdate[memoryName] = memory.getTimestamp();
                 }
 
                 // Subscribe to updates
