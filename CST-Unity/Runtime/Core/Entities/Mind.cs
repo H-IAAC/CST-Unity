@@ -3,6 +3,10 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
 
+#if UNITY_5_3_OR_NEWER
+using UnityEngine;
+#endif
+
 namespace HIAAC.CstUnity.Core.Entities
 {
     /// <summary>
@@ -25,6 +29,11 @@ namespace HIAAC.CstUnity.Core.Entities
             rawMemory = new();
             codeletGroups = new();
             memoryGroups = new();
+
+#if UNITY_5_3_OR_NEWER
+            Application.quitting += shutDown;
+#endif
+
         }
 
         private readonly object getCodeRackLock = new();
@@ -290,6 +299,11 @@ namespace HIAAC.CstUnity.Core.Entities
         {
             if (codeRack != null)
                 codeRack.shutDown();
+
+#if UNITY_5_3_OR_NEWER
+            Application.quitting -= shutDown;
+#endif
+
         }
     }
 }
