@@ -224,7 +224,7 @@ namespace HIAAC.CstUnity.Core.Entities
             if (codeletGroups.TryGetValue(groupName, out List<Codelet> groupList))
                 groupList.Add(co);
             else
-                Debug.WriteLine($"The Codelet Group {groupName} still does not have been created ... create it first with createCodeletGroup");
+                System.Diagnostics.Debug.WriteLine($"The Codelet Group {groupName} still does not have been created ... create it first with createCodeletGroup");
         }
 
         /// <summary>
@@ -237,7 +237,7 @@ namespace HIAAC.CstUnity.Core.Entities
             if (memoryGroups.TryGetValue(groupName, out List<Memory> groupList))
                 groupList.Add(m);
             else
-                Debug.WriteLine($"The Memory Group {groupName} still does not have been created ... create it first with createMemoryGroup");
+                System.Diagnostics.Debug.WriteLine($"The Memory Group {groupName} still does not have been created ... create it first with createMemoryGroup");
         }
 
         /// <summary>
