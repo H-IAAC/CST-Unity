@@ -160,7 +160,7 @@ namespace HIAAC.CstUnity.Core.Entities
         /// <param name="name">memory object name.</param>
         /// <param name="info">memory object info.</param>
         /// <returns>mo created MemoryObject.</returns>
-        public MemoryObject createMemoryObject(string name, Object info)
+        public MemoryObject createMemoryObject(string name, object info)
         {
             lock (createMemoryObject_2Lock)
             {
